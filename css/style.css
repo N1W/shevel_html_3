@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+	background-color: #f9f9f9;
+}
+
+.wrapper {
+	width: 1060px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.3), 
+				-5px 0px 5px 0px rgba(0,0,0,0.3);
+}
+
+/* HEADER */
+header {
+	padding-left: 46px;
+	padding-right: 50px;
+}
+
+.logo {
+	padding-top: 50px;
+}
+.menu {
+	font-family: "OpenSansRegular";
+	margin-top: 40px;
+	background-image: url("../img/header_bc.png");
+	line-height: 40px;
+	font-size: 14.67px;
+	color: white;
+}
+
+.menu li {
+	display: inline-block;
+	//display: inline;
+}
+
+.menu li:hover {
+	background-image: url(../img/hover_bc.png);
+	border-left: 1px solid #838383;
+	border-right:  1px solid #838383;
+}
+
+.menu li:first-child {
+	padding-left: 25px;
+	width: 145px;
+}
+
+.menu li:nth-child(2) {
+	padding-left: 25px;
+	width: 101px;
+}
+
+.menu li:nth-child(3) {
+	padding-left: 65px;
+	width: 150px;
+}
+
+.menu li:last-child {
+	padding-left: 50px;
+	width: 130px;
+}
+/* END HEADER */
