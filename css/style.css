@@ -21,7 +21,8 @@ body{
 }
 
 /* HEADER */
-header {
+header,
+.container {
 	padding-left: 46px;
 	padding-right: 50px;
 }
@@ -30,7 +31,7 @@ header {
 	padding-top: 50px;
 }
 .menu {
-	font-family: "OpenSansRegular";
+	font-family: "OpenSansRegular", sans-serif;
 	margin-top: 40px;
 	background-image: url("../img/header_bc.png");
 	line-height: 40px;
@@ -68,4 +69,36 @@ header {
 	padding-left: 50px;
 	width: 130px;
 }
-/* END HEADER */
+
+/* CAONTAINER */
+.sidebar {
+	float: left;
+	font-family: "OpenSansRegular", sans-serif;
+	font-size: 13.33px;
+	color: #656363;
+	padding-top: 40px;
+	width: 240px;
+}
+
+.sidebar ul{
+	border: 1px solid #c8c8c8;
+}
+
+.sidebar ul li {
+	height: 40px;
+	line-height: 40px;
+	white-space: nowrap;
+	padding-left: 24px;
+	border-bottom: 1px solid #c8c8c8;
+}
+
+.sidebar ul li:last-child {
+	border-bottom: none;
+}
+
+.sidebar ul li:hover {
+	background-color: #f9f9f9;
+	padding-left: 36px;
+	color: #2c2c2c;
+}
+
