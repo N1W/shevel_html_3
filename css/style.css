@@ -16,6 +16,7 @@ body{
 	width: 1060px;
 	margin: 0 auto;
 	background-color: #ffffff;
+	font-family: "OpenSansRegular", sans-serif;
 	box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.3), 
 				-5px 0px 5px 0px rgba(0,0,0,0.3);
 }
@@ -31,7 +32,6 @@ header,
 	padding-top: 50px;
 }
 .menu {
-	font-family: "OpenSansRegular", sans-serif;
 	margin-top: 40px;
 	background-image: url("../img/header_bc.png");
 	line-height: 40px;
@@ -74,7 +74,6 @@ header,
 /* SIDEBAR */
 .sidebar {
 	float: left;
-	font-family: "OpenSansRegular", sans-serif;
 	font-size: 13.33px;
 	color: #656363;
 	padding-top: 40px;
@@ -120,4 +119,12 @@ header,
 .content_img img {
 	padding-top: 47px;
 	padding-left: 89px;
+}
+
+.content article p {
+	padding-left: 22px;
+	padding-top: 42px;
+	font-size: 13px;
+	color: #2c2c2c;
+	line-height: 21px;
 }
