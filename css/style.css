@@ -23,7 +23,8 @@ body{
 
 /* HEADER */
 header,
-.container{
+footer,
+.container {
 	padding-left: 46px;
 	padding-right: 50px;
 }
@@ -31,7 +32,7 @@ header,
 .logo {
 	padding-top: 50px;
 }
-.menu {
+header .menu {
 	margin-top: 40px;
 	background-image: url("../img/header_bc.png");
 	line-height: 40px;
@@ -44,7 +45,7 @@ header,
 	//display: inline;
 }
 
-.menu li:hover {
+header li:hover {
 	background-image: url(../img/hover_bc.png);
 	border-left: 1px solid #838383;
 	border-right:  1px solid #838383;
@@ -52,7 +53,7 @@ header,
 
 .menu li:first-child {
 	padding-left: 25px;
-	width: 145px;
+	width: 120px;
 }
 
 .menu li:nth-child(2) {
@@ -62,12 +63,12 @@ header,
 
 .menu li:nth-child(3) {
 	padding-left: 65px;
-	width: 150px;
+	width: 85px;
 }
 
 .menu li:last-child {
 	padding-left: 50px;
-	width: 130px;
+	width: 90px;
 }
 
 /* CAONTAINER */
@@ -128,3 +129,35 @@ header,
 	color: #2c2c2c;
 	line-height: 21px;
 }
+/* CONTAINER end*/
+
+/* FOTTER */
+footer {
+	font-size: 13px;
+	color: #2c2c2c;
+	padding-bottom: 60px;
+}
+
+.bottom {
+	background-color: #e1e1e1;
+	text-shadow: -1px -1px 1px rgba(150, 150, 150, 1);
+	height: 40px;
+	line-height: 40px;
+}
+
+.bottom p {
+	float: right;
+	padding-right: 26px;
+}
+
+.bottom_menu li {
+	display: inline-block;
+}
+
+footer li:hover {
+	text-decoration: underline;
+}
+
+
+
+
