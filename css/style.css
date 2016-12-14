@@ -43,6 +43,7 @@ header .menu {
 .menu li {
 	display: inline-block;
 	//display: inline;
+	text-align: center;
 }
 
 header li:hover {
@@ -52,22 +53,22 @@ header li:hover {
 }
 
 .menu li:first-child {
-	padding-left: 25px;
+	margin-left: 25px;
 	width: 120px;
 }
 
 .menu li:nth-child(2) {
-	padding-left: 25px;
+	margin-left: 25px;
 	width: 101px;
 }
 
 .menu li:nth-child(3) {
-	padding-left: 65px;
+	margin-left: 65px;
 	width: 85px;
 }
 
 .menu li:last-child {
-	padding-left: 50px;
+	margin-left: 50px;
 	width: 90px;
 }
 
@@ -148,10 +149,6 @@ footer {
 .bottom p {
 	float: right;
 	padding-right: 26px;
-}
-
-.bottom_menu li {
-	display: inline-block;
 }
 
 footer li:hover {
