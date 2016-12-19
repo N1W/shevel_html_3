@@ -25,6 +25,11 @@ body{
 	margin: 0 auto;
 }
 
+li {
+	cursor: pointer;
+}
+
+
 /* HEADER */
 
 img {
