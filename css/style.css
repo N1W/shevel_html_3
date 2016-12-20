@@ -39,26 +39,8 @@ header .menu {
 .menu li {
 	display: inline-block;
 	text-align: center;
-}
-
-.menu li:first-child {
-	margin-left: 25px;
-	width: 120px;
-}
-
-.menu li:nth-child(2) {
-	margin-left: 25px;
-	width: 101px;
-}
-
-.menu li:nth-child(3) {
-	margin-left: 65px;
-	width: 85px;
-}
-
-.menu li:last-child {
-	margin-left: 50px;
-	width: 90px;
+	margin: 0 15px;
+	width: 100px;
 }
 
 header li:hover {
@@ -67,7 +49,7 @@ header li:hover {
 	width: 100px;
 	border-left: 1px solid #838383;
 	border-right:  1px solid #838383;
-	margin-right: -2.5px;
+	margin: 0 14px;
 }
 
 /* CAONTAINER */
