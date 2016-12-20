@@ -8,21 +8,11 @@
     font-weight: normal;
 }
 
-body{
-	background-color: #f9f9f9;
-}
 .wrapper_0 {
-	width: 1060px;
+	width: 966px;
 	margin: 0 auto;
 	background-color: #ffffff;
 	font-family: "OpenSansRegular", sans-serif;
-	box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.3), 
-				-5px 0px 5px 0px rgba(0,0,0,0.3);
-}
-
-.wrapper {
-	width: 966px;
-	margin: 0 auto;
 }
 
 li {
