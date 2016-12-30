@@ -54,6 +54,10 @@ header li:hover {
 
 /* CAONTAINER */
 /* SIDEBAR */
+.container {
+	height: 680px;
+}
+
 .sidebar {
 	float: left;
 	font-size: 13.33px;
@@ -112,7 +116,6 @@ header li:hover {
 
 /* FOTTER */
 footer {
-	margin-top: 680px;
 	font-size: 13px;
 	color: #2c2c2c;
 	padding-bottom: 60px;
